@@ -1,5 +1,5 @@
 import pytest
-from ..models import Cheese
+# from ..models import Cheese
 from . factories import CheeseFactory
 
 # Connects our tests with our databases

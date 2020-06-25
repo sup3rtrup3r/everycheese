@@ -13,4 +13,8 @@
 {% if cheese.description %}
 	<p>{{ cheese.description }}</p>
 {% endif %}
+
+{% if cheese.country_of_origin %}
+	<p>Country of origin: {{ cheese.country_of_origin.name }}</p>
+{% endif %}
 {% endblock content %}
